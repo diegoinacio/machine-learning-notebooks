@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 2em;
+}
+
+h1 {
+  margin: 2em 0;
+  color: red;
+}
+
+h2 {
+  margin: 1em 0;
+}
+
+/* ! Table */
+table {
+  color: #333;
+  display: inline-block;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+thead > tr {
+  text-align: right;
+}
+
+td,
+th {
+  padding: 0.2em 0.5em;
+  position: relative;
+  border: 1px solid gray;
+}
+
+/* *  Header colors */
+th {
+  color: #cccccc;
+  background-color: #333333;
+  font-weight: bold;
+}
+
+/* * Even rows color */
+tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* * Hover cell effect! */
+td:hover::before {
+  background-color: rgba(255, 0, 0, 0.1);
+  content: "";
+  height: 100%;
+  left: -5000px;
+  position: absolute;
+  top: 0;
+  width: 10000px;
+  z-index: -2;
+}
+
+td:hover::after {
+  background-color: rgba(0, 255, 0, 0.1);
+  content: "";
+  height: 10000px;
+  left: 0;
+  position: absolute;
+  top: -5000px;
+  width: 100%;
+  z-index: -1;
+}
+
+td:hover {
+  background-color: #666;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* * Tooltip */
+.tooltip {
+  visibility: hidden;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  text-align: center;
+  z-index: 1;
+  width: 8em;
+  margin: 0 1em;
+  padding: 1em 0;
+}
+
+td:hover .tooltip {
+  visibility: visible;
+}
