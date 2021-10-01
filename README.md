@@ -1,3 +1,5 @@
 # Machine Learning Notebooks
 
-Visit the repository [index page](https://diegoinacio.github.io/machine-learning-notebooks/).
+[![Machine Learning Notebooks](social-preview.png)](https://diegoinacio.github.io/machine-learning-notebooks/)
+
+Visit the repository's [index page](https://diegoinacio.github.io/machine-learning-notebooks/).
