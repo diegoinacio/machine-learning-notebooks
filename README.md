@@ -1,6 +1,6 @@
 # Machine Learning Notebooks
 
-[![Machine Learning Notebooks](social-preview.png)](https://diegoinacio.github.io/machine-learning-notebooks/)
+[![Machine Learning Notebooks](docs/assets/images/social-preview.png)](https://diegoinacio.github.io/machine-learning-notebooks/)
 
 This is an `authorial collection` of fundamental _python recipes_ in notebook format. I started this project with the sole purpose of helping people to understand **Machine Learning** and **Artificial Intelligence** concepts as clearly and succinctly as I could.
 
